@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 08-Iframe</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <h1>Curriculo e Apresentação!</h1>
+        <a href="#Video">Video |</a>
+        <a href="#Audio">Audio |</a>
+        <a href="#Curriculo">Curriculo</a>
+        <hr />
+      </nav>
+      <section id="Video">
+        <h4>Vídeo</h4>
+        <video src="/video/videomach1.mp4" width="600" preload="" controls>
+          <track
+            src="/Atividade 08 - Video_iframe/legenda.vtt"
+            label="Português"
+          />
+        </video>
+        <hr />
+      </section>
+
+      <section id="Audio">
+        <h4>Audio</h4>
+        <audio src="/video/videomach1.mp4" controls></audio>
+      </section>
+      <br />
+      <section id="Curriculo">
+        <iframe
+          src="/Atividade Curriculo/Curriculo.html"
+          width="1850px"
+          height="1700px"
+        >
+        </iframe>
+      </section>
+      <footer>Feito por: Dev Paim</footer>
+    </main>
+  </body>
+</html>
