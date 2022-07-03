@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 11</title>
+  </head>
+  <body>
+    <main>
+      <h1>Aliste-se</h1>
+      <form
+        action="https://bemach1.com.br/html-aula-forms/cadastroRecruta.php"
+        method="post"
+        target="_blank"
+      >
+        <div>
+          <label for="email" 
+            ><b>Seu e-mail</b>
+            <br />
+            <input
+              type="email"
+              placeholder="Digite seu e-mail"
+              id="email"
+              name="email" style="width: 21.1%"
+            />
+          </label>
+        </div>
+        <br />
+
+        <div>
+          <label for="password"
+            ><b>Senha</b>
+            <br />
+            <input
+              type="password"
+              placeholder="Crie uma senha"
+              id="password"
+              name="senha" style="width: 21.1%"
+            />
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="nome"
+            ><b>Nome Completo</b>
+            <br />
+            <input
+              type="text"
+              placeholder="Informe o seu nome"
+              id="nome"
+              name="nomeCompleto" style="width: 21.1%"
+            />
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="cpf"
+            ><b>CPF (Apenas números)</b>
+            <br />
+            <input type="text" placeholder="00000000000" id="cpf" name="cpf"  style="width: 21.1%"/>
+          </label>
+        </div>
+        <br />
+
+        <div>
+          <label for="rg"
+            ><b>RG (Apenas números)</b>
+            <br />
+            <input type="text" placeholder="00000000" id="rg" name="rg" style="width: 21.1%" />
+          </label>
+        </div>
+        <br />
+
+        <div>
+          <label for="date" 
+            ><b>Data de nascimento</b>
+            <br />
+            <input type="date" id="date" name="nascimento" style="width: 21.1%"/>
+          </label>
+        </div>
+        <br />
+        <fieldset style="width: 20%"> <legend><b>Necessidades especiais</b></legend>
+       
+          <input name="maior" type="radio" value="sim" id="sim" />
+          <label for="sim"><b>SIM</b></label>
+          <br />
+        <br>
+          <input name="maior" type="radio" value="nao" id="nao" />
+          <label for="nao"><b>NÃO</b></label>
+          <br />
+        </fieldset>
+        <br />
+
+        <div>
+          <label for="estado"><b>Estado de residência</label>
+          <br />
+          <select id="estado" name="estado" style="width: 21.5%">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+        <br>
+        <br>
+<fieldset style="width: 20%">
+  <legend><b>Especialização desejada</b></legend>
+  <input type="checkbox"  value="Mecânica da aeronaves (Back-end)" id="especializacao1" name="especializacao1"><label for="especializacao1"><b>Mecânica da aeronaves (Back-end)</b></label>
+  <br>
+  <br>
+  <input type="checkbox"  value="Montagem da aeronaves (Front-end)" id="especializacao2" name="especializacao2"><label for="especializacao2"><b>Montagem da aeronaves (Front-end)</b></label>
+  <br>
+  <br>
+  <input type="checkbox" value="Engenheiro de aeronaves (FullStack)" id="especializacao3" name="especializacao3"><label for="especializacao3"><b>Engenheiro de aeronaves (FullStack)</b></label>
+  <br>
+  <br>
+  <input type="checkbox" value="Piloto (Tester)" id="especializacao4" name="especializacao4"><label for="especializacao4"><b>Piloto (Tester)</b></label>
+  <br>
+  <br>
+  <input type="checkbox"  value="Operador de trafego aéreo (Scrum Master)" id="especializacao5" name="especializacao5"><label for="especializacao5"><b>Operador de trafego aéreo (Scrum Master)</b></label>
+  <br>
+  <br>
+</fieldset>
+<br>
+<br>
+<div>
+  <label for="file">Adicione sua foto:</label>
+  <input type="file" id="file" name="foto">
+  <br>
+</div>
+<br>
+<input type="submit">
+
+      </form>
+    </main>
+  </body>
+</html>
